@@ -1,5 +1,5 @@
 Name: procx
-Version: 0.1.0
+Version: 0.1.1
 Release: 1%{?dist}
 License: MIT
 Summary: ProcX is an interactive command-line tool for quickly searching and terminating processes, offering a streamlined alternative to traditional kill.
@@ -30,7 +30,7 @@ rm -f %{buildroot}%{_prefix}/.crates.toml \
 %{_bindir}/procx
 	
 %changelog
-* Thu Oct 24 2024 Triet Trinh <contact@trinhminhtriet.com> 0.1.0
+* Thu Oct 24 2024 Triet Trinh <contact@trinhminhtriet.com> 0.1.1
 - new package
 
 %autochangelog
