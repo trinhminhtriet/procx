@@ -1,11 +1,10 @@
-use std::io;
-
 use anyhow::Result;
 use crossterm::{
     event::{self, Event, KeyCode, KeyEventKind, KeyModifiers},
     terminal::{disable_raw_mode, enable_raw_mode},
 };
 use ratatui::{prelude::*, TerminalOptions};
+use std::io;
 
 mod rendering;
 

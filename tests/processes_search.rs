@@ -1,8 +1,6 @@
-use std::{thread, time::Duration};
-
-use procx::processes::{FilterOptions, ProcessManager, ProcessSearchResults};
-
 use fuzzy_matcher::{skim::SkimMatcherV2, FuzzyMatcher};
+use procx::processes::{FilterOptions, ProcessManager, ProcessSearchResults};
+use std::{thread, time::Duration};
 
 #[test]
 fn should_find_cargo_process_by_cmd_name() {

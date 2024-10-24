@@ -1,6 +1,5 @@
-use clap::{Args, Parser};
-
 use crate::config;
+use clap::{Args, Parser};
 
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = Some("ProcX is a simple TUI tool for searching and killing processes in interactive way."))]

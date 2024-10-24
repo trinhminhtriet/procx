@@ -1,7 +1,6 @@
-use std::time::{Duration, SystemTime, UNIX_EPOCH};
-
 use anyhow::{anyhow, Context, Result};
 use chrono::{DateTime, Utc};
+use std::time::{Duration, SystemTime, UNIX_EPOCH};
 use sysinfo::{System, Uid};
 
 use super::ProcessInfo;

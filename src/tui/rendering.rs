@@ -1,5 +1,3 @@
-use std::{borrow::Cow, rc::Rc};
-
 use crossterm::event::KeyEvent;
 use ratatui::{
     layout::{Alignment, Constraint, Layout, Margin, Rect},
@@ -12,6 +10,7 @@ use ratatui::{
     },
     Frame,
 };
+use std::{borrow::Cow, rc::Rc};
 use tui_textarea::TextArea;
 
 use crate::processes::{Process, ProcessSearchResults, SearchBy};

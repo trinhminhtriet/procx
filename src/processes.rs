@@ -1,7 +1,6 @@
+use anyhow::Result;
 use std::collections::HashMap;
 use std::time::SystemTime;
-
-use anyhow::Result;
 use sysinfo::{Pid, System, Uid, Users};
 use sysinfo::{ProcessRefreshKind, RefreshKind};
 
