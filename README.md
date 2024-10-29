@@ -3,8 +3,8 @@
 ```text
  ____                     __  __
 |  _ \  _ __   ___    ___ \ \/ /
-| |_) || '__| / _ \  / __| \  / 
-|  __/ | |   | (_) || (__  /  \ 
+| |_) || '__| / _ \  / __| \  /
+|  __/ | |   | (_) || (__  /  \
 |_|    |_|    \___/  \___|/_/\_\
 
 ```
@@ -12,8 +12,8 @@
 🧹 ProcX is an interactive command-line tool for quickly searching and terminating processes, offering a streamlined alternative to traditional `kill`.
 
 ## ✨ Features
-TBD
 
+TBD
 
 ## 🚀 Installation
 
@@ -41,7 +41,7 @@ source ~/.bashrc
 
 ## 💡 Usage
 
-Run **procx** with the following command to start cleaning your filesystem:
+Run **procx** with the following command to kill the process:
 
 ```sh
 ./procx [options]
