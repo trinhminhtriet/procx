@@ -1,6 +1,6 @@
 [package]
 name = "procx"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 authors = ["Triet Trinh <contact@trinhminhtriet.com>"]
 keywords = ["terminal", "process", "linux", "system", "kill"]

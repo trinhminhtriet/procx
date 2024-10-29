@@ -23,7 +23,7 @@ To install **procx**, simply clone the repository and follow the instructions be
 git clone https://github.com/trinhminhtriet/procx.git
 cd procx
 cargo build --release
-./target/release/procx --version
+cp ./target/release/procx /usr/local/bin/
 ```
 
 Running the below command will globally install the `procx` binary.
