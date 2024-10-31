@@ -1,6 +1,6 @@
 # Changelog
 
-### v0.1.3 (2024-10-31)
+### v0.1.4 (2024-10-31)
 
 - Bump dependencies
 
