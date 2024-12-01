@@ -29,3 +29,6 @@ fuzzy-matcher = "0.3.7"
 
 [dev-dependencies]
 http-test-server = "2.1.1"
+
+[profile.release]
+lto = true
