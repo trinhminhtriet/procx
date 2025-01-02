@@ -182,7 +182,7 @@ impl ProcessManager {
             process_refresh_kind(),
         );
         // TODO: do we really need to refresh users?
-        self.users.refresh_list();
+        self.users = Users::new_with_refreshed_list();
         self.process_ports = refresh_ports();
     }
 
