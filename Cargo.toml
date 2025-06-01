@@ -14,7 +14,7 @@ readme = "README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-crossterm = "0.28"
+crossterm = "0.29"
 ratatui = "0.29"
 tui-textarea = "0.7"
 anyhow = "1.0.98"
