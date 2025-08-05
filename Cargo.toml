@@ -18,7 +18,7 @@ crossterm = "0.29"
 ratatui = "0.29"
 tui-textarea = "0.7"
 anyhow = "1.0.98"
-sysinfo = "0.33"
+sysinfo = "0.35"
 listeners = "0.2.1"
 chrono = "0.4"
 clap = { version = "4.5", features = ["derive"] }
