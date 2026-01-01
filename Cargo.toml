@@ -15,7 +15,7 @@ readme = "README.md"
 
 [dependencies]
 crossterm = "0.29"
-ratatui = "0.29"
+ratatui = "0.30"
 tui-textarea = "0.7"
 anyhow = "1.0.100"
 sysinfo = "0.37"
